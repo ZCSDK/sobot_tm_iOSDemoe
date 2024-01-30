@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6392ABDA2B678B6500046B79 /* RootDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6392ABBD2B678B6400046B79 /* RootDemoController.m */; };
+		6392ABDB2B678B6500046B79 /* root_menu2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABBF2B678B6400046B79 /* root_menu2@3x.png */; };
+		6392ABDC2B678B6500046B79 /* root_menu2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC02B678B6400046B79 /* root_menu2@2x.png */; };
+		6392ABDD2B678B6500046B79 /* root_menu4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC12B678B6400046B79 /* root_menu4@3x.png */; };
+		6392ABDE2B678B6500046B79 /* root_menu4_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC22B678B6400046B79 /* root_menu4_nor@2x.png */; };
+		6392ABDF2B678B6500046B79 /* root_menu4_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC32B678B6400046B79 /* root_menu4_nor@3x.png */; };
+		6392ABE02B678B6500046B79 /* root_menu4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC42B678B6400046B79 /* root_menu4@2x.png */; };
+		6392ABE12B678B6500046B79 /* root_menu2_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC52B678B6400046B79 /* root_menu2_nor@2x.png */; };
+		6392ABE22B678B6500046B79 /* root_menu2_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC62B678B6400046B79 /* root_menu2_nor@3x.png */; };
+		6392ABE32B678B6500046B79 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6392ABC72B678B6400046B79 /* LoginViewController.m */; };
+		6392ABE42B678B6500046B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABC82B678B6400046B79 /* Assets.xcassets */; };
+		6392ABE52B678B6500046B79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6392ABC92B678B6400046B79 /* ViewController.m */; };
+		6392ABE62B678B6500046B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABCA2B678B6400046B79 /* LaunchScreen.storyboard */; };
+		6392ABE72B678B6500046B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABCC2B678B6500046B79 /* Main.storyboard */; };
+		6392ABE82B678B6500046B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6392ABCE2B678B6500046B79 /* main.m */; };
+		6392ABE92B678B6500046B79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6392ABD02B678B6500046B79 /* AppDelegate.m */; };
+		6392ABEA2B678B6500046B79 /* SobotTelemarketingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392ABD32B678B6500046B79 /* SobotTelemarketingSDK.framework */; };
+		6392ABEB2B678B6500046B79 /* SobotCall.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABD42B678B6500046B79 /* SobotCall.bundle */; };
+		6392ABED2B678B6500046B79 /* SobotCallLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392ABD62B678B6500046B79 /* SobotCallLib.framework */; };
+		6392ABEE2B678B6500046B79 /* SobotCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392ABD72B678B6500046B79 /* SobotCommon.framework */; };
+		6392ABEF2B678B6500046B79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6392ABD82B678B6500046B79 /* Info.plist */; };
+		6392AC592B679FDD00046B79 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392ABD52B678B6500046B79 /* WebRTC.framework */; };
+		6392AC5A2B679FDD00046B79 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6392ABD52B678B6500046B79 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED6649BD28B7918F0055B237 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66499C28B7501B0055B237 /* libc++.tbd */; };
+		ED6649BE28B7919A0055B237 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649A028B7503A0055B237 /* AudioToolbox.framework */; };
+		ED6649BF28B791AC0055B237 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649A228B750450055B237 /* SystemConfiguration.framework */; };
+		ED6649C028B7931A0055B237 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649AC28B750890055B237 /* CoreMedia.framework */; };
+		ED6649C128B793620055B237 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649AA28B7507B0055B237 /* CoreVideo.framework */; };
+		ED6649C228B793A80055B237 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649A428B750590055B237 /* AVFoundation.framework */; };
+		ED6649C328B793B20055B237 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649A828B750720055B237 /* CFNetwork.framework */; };
+		ED6649C428B793D00055B237 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6649A628B750690055B237 /* libresolv.9.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED6649C928B795030055B237 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6392AC5A2B679FDD00046B79 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6649E228B795860055B237 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6392ABBC2B678B6400046B79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6392ABBD2B678B6400046B79 /* RootDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootDemoController.m; sourceTree = "<group>"; };
+		6392ABBF2B678B6400046B79 /* root_menu2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2@3x.png"; sourceTree = "<group>"; };
+		6392ABC02B678B6400046B79 /* root_menu2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2@2x.png"; sourceTree = "<group>"; };
+		6392ABC12B678B6400046B79 /* root_menu4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4@3x.png"; sourceTree = "<group>"; };
+		6392ABC22B678B6400046B79 /* root_menu4_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4_nor@2x.png"; sourceTree = "<group>"; };
+		6392ABC32B678B6400046B79 /* root_menu4_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4_nor@3x.png"; sourceTree = "<group>"; };
+		6392ABC42B678B6400046B79 /* root_menu4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4@2x.png"; sourceTree = "<group>"; };
+		6392ABC52B678B6400046B79 /* root_menu2_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2_nor@2x.png"; sourceTree = "<group>"; };
+		6392ABC62B678B6400046B79 /* root_menu2_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2_nor@3x.png"; sourceTree = "<group>"; };
+		6392ABC72B678B6400046B79 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6392ABC82B678B6400046B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6392ABC92B678B6400046B79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6392ABCB2B678B6400046B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6392ABCD2B678B6500046B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6392ABCE2B678B6500046B79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6392ABCF2B678B6500046B79 /* RootDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootDemoController.h; sourceTree = "<group>"; };
+		6392ABD02B678B6500046B79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6392ABD12B678B6500046B79 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6392ABD32B678B6500046B79 /* SobotTelemarketingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotTelemarketingSDK.framework; sourceTree = "<group>"; };
+		6392ABD42B678B6500046B79 /* SobotCall.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SobotCall.bundle; sourceTree = "<group>"; };
+		6392ABD52B678B6500046B79 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		6392ABD62B678B6500046B79 /* SobotCallLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotCallLib.framework; sourceTree = "<group>"; };
+		6392ABD72B678B6500046B79 /* SobotCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotCommon.framework; sourceTree = "<group>"; };
+		6392ABD82B678B6500046B79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6392ABD92B678B6500046B79 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED66492728B71C910055B237 /* SobotCallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SobotCallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66499C28B7501B0055B237 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ED66499E28B7502F0055B237 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ED6649A028B7503A0055B237 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ED6649A228B750450055B237 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ED6649A428B750590055B237 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED6649A628B750690055B237 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		ED6649A828B750720055B237 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ED6649AA28B7507B0055B237 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		ED6649AC28B750890055B237 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED66492428B71C910055B237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6649C428B793D00055B237 /* libresolv.9.tbd in Frameworks */,
+				6392ABEE2B678B6500046B79 /* SobotCommon.framework in Frameworks */,
+				ED6649C328B793B20055B237 /* CFNetwork.framework in Frameworks */,
+				ED6649C228B793A80055B237 /* AVFoundation.framework in Frameworks */,
+				6392ABED2B678B6500046B79 /* SobotCallLib.framework in Frameworks */,
+				ED6649C128B793620055B237 /* CoreVideo.framework in Frameworks */,
+				ED6649C028B7931A0055B237 /* CoreMedia.framework in Frameworks */,
+				ED6649BF28B791AC0055B237 /* SystemConfiguration.framework in Frameworks */,
+				ED6649BE28B7919A0055B237 /* AudioToolbox.framework in Frameworks */,
+				6392ABEA2B678B6500046B79 /* SobotTelemarketingSDK.framework in Frameworks */,
+				ED6649BD28B7918F0055B237 /* libc++.tbd in Frameworks */,
+				6392AC592B679FDD00046B79 /* WebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6392ABBB2B678B6400046B79 /* SobotCallDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6392ABBC2B678B6400046B79 /* AppDelegate.h */,
+				6392ABD02B678B6500046B79 /* AppDelegate.m */,
+				6392ABC82B678B6400046B79 /* Assets.xcassets */,
+				6392ABD22B678B6500046B79 /* Frameworks */,
+				6392ABBE2B678B6400046B79 /* images */,
+				6392ABD82B678B6500046B79 /* Info.plist */,
+				6392ABCA2B678B6400046B79 /* LaunchScreen.storyboard */,
+				6392ABD12B678B6500046B79 /* LoginViewController.h */,
+				6392ABC72B678B6400046B79 /* LoginViewController.m */,
+				6392ABCE2B678B6500046B79 /* main.m */,
+				6392ABCC2B678B6500046B79 /* Main.storyboard */,
+				6392ABCF2B678B6500046B79 /* RootDemoController.h */,
+				6392ABBD2B678B6400046B79 /* RootDemoController.m */,
+				6392ABD92B678B6500046B79 /* ViewController.h */,
+				6392ABC92B678B6400046B79 /* ViewController.m */,
+			);
+			path = SobotCallDemo;
+			sourceTree = "<group>";
+		};
+		6392ABBE2B678B6400046B79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6392ABBF2B678B6400046B79 /* root_menu2@3x.png */,
+				6392ABC02B678B6400046B79 /* root_menu2@2x.png */,
+				6392ABC12B678B6400046B79 /* root_menu4@3x.png */,
+				6392ABC22B678B6400046B79 /* root_menu4_nor@2x.png */,
+				6392ABC32B678B6400046B79 /* root_menu4_nor@3x.png */,
+				6392ABC42B678B6400046B79 /* root_menu4@2x.png */,
+				6392ABC52B678B6400046B79 /* root_menu2_nor@2x.png */,
+				6392ABC62B678B6400046B79 /* root_menu2_nor@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6392ABD22B678B6500046B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6392ABD32B678B6500046B79 /* SobotTelemarketingSDK.framework */,
+				6392ABD42B678B6500046B79 /* SobotCall.bundle */,
+				6392ABD52B678B6500046B79 /* WebRTC.framework */,
+				6392ABD62B678B6500046B79 /* SobotCallLib.framework */,
+				6392ABD72B678B6500046B79 /* SobotCommon.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED66491E28B71C900055B237 = {
+			isa = PBXGroup;
+			children = (
+				6392ABBB2B678B6400046B79 /* SobotCallDemo */,
+				ED66492828B71C910055B237 /* Products */,
+				ED66499B28B7501B0055B237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED66492828B71C910055B237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED66492728B71C910055B237 /* SobotCallDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED66499B28B7501B0055B237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED6649AC28B750890055B237 /* CoreMedia.framework */,
+				ED6649AA28B7507B0055B237 /* CoreVideo.framework */,
+				ED6649A828B750720055B237 /* CFNetwork.framework */,
+				ED6649A628B750690055B237 /* libresolv.9.tbd */,
+				ED6649A428B750590055B237 /* AVFoundation.framework */,
+				ED6649A228B750450055B237 /* SystemConfiguration.framework */,
+				ED6649A028B7503A0055B237 /* AudioToolbox.framework */,
+				ED66499E28B7502F0055B237 /* libz.tbd */,
+				ED66499C28B7501B0055B237 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED66492628B71C910055B237 /* SobotCallDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED66494028B71C940055B237 /* Build configuration list for PBXNativeTarget "SobotCallDemo" */;
+			buildPhases = (
+				ED66492328B71C910055B237 /* Sources */,
+				ED66492428B71C910055B237 /* Frameworks */,
+				ED66492528B71C910055B237 /* Resources */,
+				ED6649C928B795030055B237 /* Embed Frameworks */,
+				ED6649E228B795860055B237 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SobotCallDemo;
+			productName = SobotCallDemo;
+			productReference = ED66492728B71C910055B237 /* SobotCallDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED66491F28B71C900055B237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ED66492628B71C910055B237 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ED66492228B71C900055B237 /* Build configuration list for PBXProject "SobotCallDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED66491E28B71C900055B237;
+			productRefGroup = ED66492828B71C910055B237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED66492628B71C910055B237 /* SobotCallDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED66492528B71C910055B237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6392ABDE2B678B6500046B79 /* root_menu4_nor@2x.png in Resources */,
+				6392ABDC2B678B6500046B79 /* root_menu2@2x.png in Resources */,
+				6392ABE12B678B6500046B79 /* root_menu2_nor@2x.png in Resources */,
+				6392ABE62B678B6500046B79 /* LaunchScreen.storyboard in Resources */,
+				6392ABE22B678B6500046B79 /* root_menu2_nor@3x.png in Resources */,
+				6392ABE72B678B6500046B79 /* Main.storyboard in Resources */,
+				6392ABDF2B678B6500046B79 /* root_menu4_nor@3x.png in Resources */,
+				6392ABDD2B678B6500046B79 /* root_menu4@3x.png in Resources */,
+				6392ABE02B678B6500046B79 /* root_menu4@2x.png in Resources */,
+				6392ABE42B678B6500046B79 /* Assets.xcassets in Resources */,
+				6392ABDB2B678B6500046B79 /* root_menu2@3x.png in Resources */,
+				6392ABEB2B678B6500046B79 /* SobotCall.bundle in Resources */,
+				6392ABEF2B678B6500046B79 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED66492328B71C910055B237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6392ABE52B678B6500046B79 /* ViewController.m in Sources */,
+				6392ABE32B678B6500046B79 /* LoginViewController.m in Sources */,
+				6392ABE82B678B6500046B79 /* main.m in Sources */,
+				6392ABDA2B678B6500046B79 /* RootDemoController.m in Sources */,
+				6392ABE92B678B6500046B79 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6392ABCA2B678B6400046B79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6392ABCB2B678B6400046B79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6392ABCC2B678B6500046B79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6392ABCD2B678B6500046B79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED66493E28B71C940055B237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED66493F28B71C940055B237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED66494128B71C940055B237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SobotCallDemo",
+					"$(PROJECT_DIR)/SobotCallDemo/Frameworks",
+					"$(PROJECT_DIR)/SobotCallTMDemo",
+					"$(PROJECT_DIR)/SobotCallTMDemo/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotCallDemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启麦克风权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sobot.com.SobotCallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		ED66494228B71C940055B237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SobotCallDemo",
+					"$(PROJECT_DIR)/SobotCallDemo/Frameworks",
+					"$(PROJECT_DIR)/SobotCallTMDemo",
+					"$(PROJECT_DIR)/SobotCallTMDemo/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotCallDemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启麦克风权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sobot.com.SobotCallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED66492228B71C900055B237 /* Build configuration list for PBXProject "SobotCallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED66493E28B71C940055B237 /* Debug */,
+				ED66493F28B71C940055B237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED66494028B71C940055B237 /* Build configuration list for PBXNativeTarget "SobotCallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED66494128B71C940055B237 /* Debug */,
+				ED66494228B71C940055B237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED66491F28B71C900055B237 /* Project object */;
+}
